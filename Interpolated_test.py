@@ -1,13 +1,24 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Mar  5 10:19:25 2021
+%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                        %
+%         Impact of notch filtering & inbuilt interpolation              %
+%                                                                        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-This Script explores how notch filtering can skew the exponent down.
+  Summary: This Script explores how notch filtering can skew the exponent down.
 The current interpolation is a simple version and causes sudden dip centered
 around the line noise range. Depending on the window used for interpolating, 
-the exponent varies. Care needs to be done while using it
-@author: Akshay Sujatha Ravindran
+the exponent varies. Care needs to be done while using i
+
+ Credits: This script is made possible due to the wonderful FOOOF toolbox
+ https://fooof-tools.github.io/fooof/
+ Author: Akshay Sujatha Ravindran
+ email: akshay dot s dot ravindran at gmail dot com
+ Mar 5th 2021
 """
+
+
 
 
 # Load the required libraries
