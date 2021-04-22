@@ -42,5 +42,4 @@ EEG measures the electrical activity at a sensor relative to the
 The current interpolation is a simple version and causes sudden dip centered
 around the line noise range. Depending on the window used for interpolating, 
 the exponent varies. Care needs to be done while using it
-
-     <br/><img src='/images/interpolate_fooof.png' width=500 align=center>
+<br/><img src='/images/interpolate_fooof.png' width=500 align=center>
