@@ -31,7 +31,7 @@ EEG measures the electrical activity at a sensor relative to the
        <br/><img src='/images/3.jpg' width=500 align=center>
        
        
-          <br/>        When multiple bands increase but one (theta) is much bigger than the other (alpha), not even the increase in alpha power will be represented correctly (the relationship is flipped).
+ <br/> When multiple bands increase but one (theta) is much bigger than the other (alpha), not even the increase in alpha power will be represented correctly (the relationship is flipped).
        <br/><img src='/images/4.jpg' width=500 align=center>
        
        
