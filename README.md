@@ -12,7 +12,7 @@ EEG measures the electrical activity at a sensor relative to the
   conditions can cause spurious differences due to the nature of computation 
   and this code is used to simulate a set of PSDs to evaluate when they fail
   and show how flattened PSD is a better alternative to quantify changes in
-  multiple bands. 
+  multiple bands.  A pair of signals can be created using Relative power comparison.py file
   <br/><img src='/images/rel_power.jpg' width=500 align=center>
   <br/> 
   In general, relative power is better when reporting which band has the highest power difference. Comparing multiple bands can lead to spurious differences due to the nature of computation. Periodic power is a much more robust alternative to quantify multi-band differences.
