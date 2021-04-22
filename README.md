@@ -2,7 +2,7 @@
 ## Evaluating fooof toolbox for parameterizing power spectra<br/>
 
 
-### Relative power vs Absolute power vs Periodic power
+### 1) Relative power vs Absolute power vs Periodic power 
 EEG measures the electrical activity at a sensor relative to the 
   reference & ground electrode. This causes issues in comparing absolute power
   between conditions &/participants as impedance differences can cause 
@@ -12,7 +12,7 @@ EEG measures the electrical activity at a sensor relative to the
   conditions can cause spurious differences due to the nature of computation 
   and this code is used to simulate a set of PSDs to evaluate when they fail
   and show how flattened PSD is a better alternative to quantify changes in
-  multiple bands.
+  multiple bands. A pair of signals can be created using Relative power comparison.py file
   <br/><img src='/images/rel_power.jpg' width=500 align=center>
   <br/> 
   In general, relative power is better when reporting which band has the highest power difference. Comparing multiple bands can lead to spurious differences due to the nature of computation. Periodic power is a much more robust alternative to quantify multi-band differences.
@@ -35,4 +35,11 @@ EEG measures the electrical activity at a sensor relative to the
        <br/><img src='/images/4.jpg' width=500 align=center>
        
        
-       
+  <br/>      
+### 2) Concern with notch filter and current interpolation method  <br/>
+Interpolate_test.py script explores how notch filtering can skew the exponent down.
+The current interpolation is a simple version and causes sudden dip centered
+around the line noise range. Depending on the window used for interpolating, 
+the exponent varies. Care needs to be done while using it
+
+     <br/><img src='/images/interpolate_fooof.png' width=500 align=center>
