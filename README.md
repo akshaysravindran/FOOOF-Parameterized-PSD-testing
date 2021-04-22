@@ -32,12 +32,13 @@ EEG measures the electrical activity at a sensor relative to the
        
        
  <br/> When multiple bands increase but one (theta) is much bigger than the other (alpha), not even the increase in alpha power will be represented correctly (the relationship is flipped).
-       <br/><img src='/images/4.jpg' width=500 align=center>
+       <br/><img src='/images/4.jpg' width=500 align=center> <br/>  
        
        
-  <br/>      
-### 2) Concern with notch filter and current interpolation method  <br/>
-Interpolate_test.py script explores how notch filtering can skew the exponent down.
+  
+  
+### 2) Concern with notch filter and current interpolation method  
+<br/> Interpolate_test.py script explores how notch filtering can skew the exponent down.
 The current interpolation is a simple version and causes sudden dip centered
 around the line noise range. Depending on the window used for interpolating, 
 the exponent varies. Care needs to be done while using it
